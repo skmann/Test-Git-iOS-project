@@ -21,6 +21,7 @@
 		268126381973E184005D643A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2681261A1973E184005D643A /* UIKit.framework */; };
 		268126401973E184005D643A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2681263E1973E184005D643A /* InfoPlist.strings */; };
 		268126421973E184005D643A /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 268126411973E184005D643A /* GitTestTests.m */; };
+		2681264D1973E4F3005D643A /* PGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2681264C1973E4F3005D643A /* PGTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2681263D1973E184005D643A /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		2681263F1973E184005D643A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		268126411973E184005D643A /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		2681264B1973E4F3005D643A /* PGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTest.h; sourceTree = "<group>"; };
+		2681264C1973E4F3005D643A /* PGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		2681260A1973E184005D643A = {
 			isa = PBXGroup;
 			children = (
+				2681264B1973E4F3005D643A /* PGTest.h */,
+				2681264C1973E4F3005D643A /* PGTest.m */,
 				2681261C1973E184005D643A /* GitTest */,
 				2681263B1973E184005D643A /* GitTestTests */,
 				268126151973E184005D643A /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				268126231973E184005D643A /* main.m in Sources */,
 				2681262D1973E184005D643A /* PGViewController.m in Sources */,
+				2681264D1973E4F3005D643A /* PGTest.m in Sources */,
 				268126271973E184005D643A /* PGAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
